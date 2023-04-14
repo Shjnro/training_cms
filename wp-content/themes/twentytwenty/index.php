@@ -83,16 +83,10 @@ get_header();
 	if (have_posts()) {
 
 		if (is_search()) {
-			// Người làm : Nguyễn Phúc Linh
+			// Người làm : Nguyễn Anh Huy
 			// Module: 5
-			// Công việc: Tùy chỉnh giao diện danh sách bài viết tại trang tìm kiếm.
-
-			// var_dump('These are search results!');
-			// var_dump(get_post());
-
 			while (have_posts()) {
 				the_post();
-				
 				// Get posts:
 				$_post = get_post();
 
@@ -166,9 +160,8 @@ get_header();
 			// $i = 0;
 
 			while (have_posts()) {
-				// Người làm : Lê Anh Vũ
+				// Người làm : Đỗ Nguyễn Minh Khải
 				// Module: 2
-				// Công việc: Tùy chỉnh giao diện danh sách bài viết tại trang chủ.
                 the_post();
 				// lấy bài viết.
 				$_post = get_post();
